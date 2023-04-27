@@ -1,10 +1,10 @@
 //Stack Program
-import java.util.*;
-public class stack {
+import java.util.*;              //Required packges
+public class stack {            
     int max = 5;
     int top;
     int data[] = new int[max];
-    void initialize() {
+    void initialize() {         //memberfunction
         top = -1;
     }
     int full() {
@@ -115,9 +115,9 @@ public class stack {
                     System.out.println("Thank you!!");
                     break;
                 default:
-                    System.out.println("Invalid choice!!");
+                    System.out.println("Invalid choice!!");         
                     break;
             }  
         }while(ch != 5);
     }
-}
+}                           //end of program
